@@ -1,0 +1,52 @@
+.site_container {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+.site_container nav {
+  width: inherit;
+  height: 60px;
+  -webkit-box-shadow: 0 10px 5px gray;
+          box-shadow: 0 10px 5px gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+}
+
+.site_container nav .logo {
+  font-size: 2.5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.site_container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site_container nav ul li {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  color: #525050;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Comp.module.css.map */
