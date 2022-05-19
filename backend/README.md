@@ -11,9 +11,9 @@ GOOGLE_CLIENT_SECRET =''
 
 SITE_NAME = ''
 
-EMAIL_FROM= ''
+EMAIL_FROM= ''    <--- email for mail sending to user
 
-EMAIL_PASS = ''
+EMAIL_PASS = ''   <---  email password 
 
 NODE_ENV = ''
 
